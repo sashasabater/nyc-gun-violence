@@ -7,7 +7,7 @@
 #### Stop-and-Frisk is a controversial policing method practiced by the NYPD from 2002 to 2013, where officers stopped and frisked individuals they thought posed a risk of carrying a weapon. It has since been disbanded because of the racial profiling it proliferated. However, supporters of the Stop-and-Frisk program argue that it is instrumental in preventing gun crime - specifically murder. I wanted to see if there was any statistical truth to that claim. 
 
 ## Data and Exploratory Data Analysis
-#### I utilized the City of New York's public data resources to acquire [NYPD's historic dataset of every shooting incident reported between 2006 and 2020](https://data.cityofnewyork.us/Public-Safety/NYPD-Shooting-Incident-Data-Historic-/833y-fsy8). Additonally, I used [NYPD's historic dataset of every stop and frisk event reported](https://www1.nyc.gov/site/nypd/stats/reports-analysis/stopfrisk.page) to track the number of stops made through the time period of interest. Lastly, I used this [public geospatial dataset of the city](https://data.beta.nyc/dataset/pediacities-nyc-neighborhoods) to accurately map out locations. 
+#### I utilized the City of New York's public data resources to acquire [NYPD's historic dataset of every shooting incident reported between 2006 and 2020](https://data.cityofnewyork.us/Public-Safety/NYPD-Shooting-Incident-Data-Historic-/833y-fsy8). Additonally, I used [NYPD's historic dataset of every stop and frisk event reported](https://www1.nyc.gov/site/nypd/stats/reports-analysis/stopfrisk.page) to track the number of stops made through the time period of interest.  On background, to inform my research and analysis, I utilized [this dataset of borough and neighborhood demographis](https://furmancenter.org/neighborhoods) made available by NYU's Furman Center.Lastly, I used this [public geospatial dataset of the city](https://data.beta.nyc/dataset/pediacities-nyc-neighborhoods) to accurately map out locations. 
 
  
 #### In exploring the shooting incident dataset, I found that of the total 23,568 shooting incidents reported from 2006 - 2020, 4488 were murders. Most of these shooting incidents, unsurprisingly, happen in low-income areas. Additionally, I noticed that the year 2013, the year Stop-and-Frisk was dismantled, seemed to be an outlier, and registers as having the lowest rate of murder throughout this time period. 
@@ -22,7 +22,14 @@
 
 #### By using the normal distribution of the difference in rates, I was able to establish a p-value of approximately .08. Since this is above our alpha threshhold, I cannot reject the null hypothesis that the murder rates of these two time frames are the same. 
 
-## What's the point?
+## What's the point? Future questions for exploration and discussion
+#### In 2011, there were a total of almost 685,724 stops by the police while in 2019, there were a total of 13,459. We can see that this method of policing is in fact highly ineffective at preventing fatal crime, since even with this massive difference of stops, there has been no significant change in gun murder rates. We can use this information in addressing the factors that effect crime rates like poverty and homelessness. Future questions for exploration include: 
+ - How has homelessness shifted in tandem with housing development during this time frame, and has it had any effect on overall crime rates? 
+ - Do gun laws have any effect on these murder rates? 
+ - What about the individual breakdown of the boroughs?
+ - Exploring other cities that have either implemented or still implement stop-and-frisk policing
+ 
+
 
 
 
